@@ -1,5 +1,5 @@
 # Gomoku AI
-Gomoku AI.
+Gomoku AI based on minimax and alpha-beta pruning algorithms.
 
 ## Description
 This project utilizes minimax and alpha-beta pruning algorithms to implement a Gomoku AI.
@@ -22,7 +22,7 @@ This project utilizes minimax and alpha-beta pruning algorithms to implement a G
 
 ### Installing
 ```bash
-git clone 
+git clone https://github.com/terrychou911019/GomokuAI.git
 ```
 
 ### Executing Program
@@ -30,7 +30,7 @@ git clone
     ```bash
     cd src
     ```
-2. Compile al programs.
+2. Compile all programs.
     ```bash
     make
     ```
@@ -43,7 +43,7 @@ git clone
     ./main ./alphabeta ./minimax
     ./main ./alphabeta ../baselines/baseline2
     ```
-4. After the game finishes, it will generate a file named "gamelog.txt" in the "src" folder.
+4. After the game finishes, it will generate a file named "gamelog.txt" under the "src" folder.
 
 ### Help 
 - Clean the executables under the "src" folder.
