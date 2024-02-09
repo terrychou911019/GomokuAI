@@ -26,7 +26,7 @@ git clone https://github.com/terrychou911019/GomokuAI.git
 ```
 
 ### Executing Program
-1. Go to the "src" folder.
+1. Go to the _"src"_ folder.
     ```bash
     cd src
     ```
@@ -43,10 +43,10 @@ git clone https://github.com/terrychou911019/GomokuAI.git
     ./main ./alphabeta ./minimax
     ./main ./alphabeta ../baselines/baseline2
     ```
-4. After the game finishes, it will generate a file named "gamelog.txt" under the "src" folder.
+4. After the game finishes, it will generate a file named _"gamelog.txt"_ under the _"src"_ folder.
 
 ### Help 
-- Clean the executables under the "src" folder.
+- Clean the executables under the _"src"_ folder.
     ```bash
     make clean
     ```
@@ -54,7 +54,7 @@ git clone https://github.com/terrychou911019/GomokuAI.git
     ```bash
     timeout: failed to run command ‘../baselines/baseline1’: Permission denied
     ```
-    use the "chmod" command to add executable permissions.
+    use the _"chmod"_ command to add executable permissions.
     ```bash
     chmod +x ../baselines/baseline1
     ```
